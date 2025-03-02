@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.descricao {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    /* Ajustes para centralizar e diminuir o tamanho do box */
+    width: 50%; /* Ajuste conforme necessário */
+    max-width: 600px; /* Ajuste conforme necessário */
+    margin: auto; /* Centraliza horizontalmente */
+}
+
+h1 {
+    color: #333;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color:#ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+#resultado {
+    font-weight: bold;
+    margin-top: 20px;
+}
